@@ -1,0 +1,67 @@
+* {
+    bg:     #1a1b26;
+    bg-alt: #16161e;
+    fg:     #c0caf5;
+    fg-alt: #565f89;
+    accent: #7aa2f7;
+
+    background-color: transparent;
+    text-color: @fg;
+}
+
+/* Window */
+window {
+    width: 25%;
+    background-color: rgba(26, 27, 38, 0.90);
+    border: 2px;
+    border-color: @accent;
+    border-radius: 4px;
+}
+
+/* Main box */
+mainbox {
+    padding: 10px;
+    border-radius: 9px;
+}
+
+/* Input */
+entry {
+    background-color: @bg-alt;
+    padding: 8px;
+    text-color: @fg;
+    border-radius: 9px;
+}
+
+/* List */
+listview {
+    lines: 8;
+    spacing: 4px;
+    scrollbar: false;
+}
+
+/* Items */
+element {
+    padding: 6px;
+}
+
+element normal.normal {
+    background-color: transparent;
+}
+
+element selected.normal {
+    background-color: rgba(122, 162, 247, 0.25);
+    text-color: @fg;
+    border-radius: 9px;
+}
+
+/* Icons */
+element-icon {
+    size: 20px;
+    padding: 5px;
+}
+
+/* Prompt */
+prompt {
+    text-color: @accent;
+}
+

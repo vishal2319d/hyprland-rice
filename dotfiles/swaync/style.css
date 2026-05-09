@@ -1,0 +1,183 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 15px;
+  transition: all 0.20s ease;
+}
+
+/* ========================= */
+/* 🔔 NOTIFICATIONS          */
+/* ========================= */
+.notification {
+  background: rgba(10, 11, 20, 0.62);
+  border-radius: 14px;
+  border: 1px solid rgba(137, 180, 250, 0.35);
+  padding: 14px;
+  margin: 6px 10px;
+}
+
+.notification:hover {
+  background: rgba(30, 30, 46, 0.9);
+  border: 1px solid #89b4fa;
+}
+
+/* Title */
+.summary {
+  color: #cdd6f4;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Body */
+.body {
+  color: #a6adc8;
+  margin-top: 4px;
+}
+
+/* App name */
+.app-name {
+  color: #89b4fa;
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+/* Image/Icon */
+.image {
+  margin-right: 12px;
+  border-radius: 8px;
+}
+
+/* Critical */
+.notification.critical {
+  border: 1px solid #f38ba8;
+  background: rgba(243, 139, 168, 0.15);
+}
+
+
+/* ========================= */
+/* 📜 CONTROL CENTER         */
+/* ========================= */
+.control-center {
+  background: rgba(7, 7, 10, 0.68);
+  border-radius: 18px;
+  border: 1px solid rgba(137, 180, 250, 0.3);
+  padding: 16px;
+  margin: 10px;
+}
+
+/* Title bar */
+.control-center .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #cdd6f4;
+  margin-bottom: 12px;
+}
+
+/* "No notification" text */
+.control-center .empty {
+  color: #6c7086;
+}
+
+
+/* ========================= */
+/* 🧹 CLEAR BUTTON           */
+/* ========================= */
+.clear-all {
+  background: rgba(243, 139, 168, 0.15);
+  color: #f38ba8;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+.clear-all:hover {
+  background: rgba(243, 139, 168, 0.3);
+}
+
+
+/* ========================= */
+/* 🔘 BUTTON GRID (IMPORTANT)*/
+/* ========================= */
+.widget-buttons-grid {
+  margin-top: 10px;
+}
+
+.widget-buttons-grid button {
+  background: rgba(30, 30, 46, 0.75);
+  border-radius: 12px;
+  border: 1px solid transparent;
+  color: #cdd6f4;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.widget-buttons-grid button:hover {
+  background: rgba(49, 50, 68, 0.9);
+  border: 1px solid #89b4fa;
+}
+
+/* Toggle buttons active */
+.widget-buttons-grid button.toggle:checked {
+  background: #89b4fa;
+  color: #11111b;
+}
+
+
+/* ========================= */
+/* 🎵 MPRIS (MEDIA)          */
+/* ========================= */
+.widget-mpris {
+  background: rgba(30, 30, 46, 0.6);
+  border-radius: 14px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+.widget-mpris .title {
+  color: #cdd6f4;
+  font-weight: 600;
+}
+
+.widget-mpris .artist {
+  color: #a6adc8;
+  font-size: 12px;
+}
+
+/* Album art */
+.widget-mpris .image {
+  border-radius: 10px;
+}
+
+
+/* ========================= */
+/* 📊 SLIDERS                */
+/* ========================= */
+scale trough {
+  background: rgba(49, 50, 68, 0.6);
+  border-radius: 10px;
+  min-height: 6px;
+}
+
+scale highlight {
+  background: #89b4fa;
+  border-radius: 10px;
+}
+
+
+/* ========================= */
+/* ✨ SCROLLBAR (clean)      */
+/* ========================= */
+scrollbar {
+  background: transparent;
+}
+
+scrollbar slider {
+  background: rgba(137, 180, 250, 0.3);
+  border-radius: 6px;
+}
+
+
+/* ========================= */
+/* 🧊 GROUP SPACING          */
+/* ========================= */
+.notification-group {
+  margin-bottom: 10px;
+}
